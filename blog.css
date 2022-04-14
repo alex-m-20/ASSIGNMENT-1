@@ -57,6 +57,7 @@ nav li{
 a{
     text-decoration: none;
     padding: 5px;
+    color: black;
 }
 a:hover{
     font-size: x-large;
