@@ -1,0 +1,80 @@
+body{
+    background-image: url(images/background.jpg);
+    font-family: 'Raleway' sans-serif;
+    grid-template-areas: "header header"
+                          "nav nav"
+                          "aside main"
+                          "footer footer";
+    display: grid;                      
+}
+
+header{
+    grid-area: header;
+    font-family: 'Shadow Into Light';
+    font-size: 1.5em;
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+aside{
+    grid-area: aside;
+    padding: 5px;
+    margin: 50px;
+}
+aside img{
+    width: 450px;
+    height: 700px;
+}
+
+
+nav{
+    grid-area: nav;
+    padding: 5px;
+    opacity: 0.5;
+    transition: opacity 1.1s ease-in;
+    text-align: center;
+    font-size: larger;
+}
+nav:hover{
+    display: block;
+    opacity: 1;
+    font-size: larger;
+}
+nav li{
+    padding: 5px;
+    display: inline-block;
+}
+
+
+a{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+a:hover{
+    font-size: x-large;
+}
+
+
+
+
+main{
+    grid-area: main;
+    padding: 10px;
+}
+main h1{
+    text-align: center;
+}
+
+
+section{
+    border-style: none;
+    padding: 10px;
+}
+
+
+
+footer{
+    grid-area: footer;
+    text-align: center;
+}
