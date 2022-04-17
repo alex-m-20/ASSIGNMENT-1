@@ -31,7 +31,6 @@ nav{
     grid-area: nav;
     padding: 5px;
     opacity: 0.5;
-    transition: opacity 1.1s ease-in;
     text-align: center;
     font-size: larger;
 }
@@ -71,6 +70,12 @@ section{
     border-style: none;
     padding: 10px;
 }
+section img{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
 
 img{
     width: 850px;
@@ -80,4 +85,11 @@ img{
 footer{
     grid-area: footer;
     text-align: center;
+}
+
+#hamburger{
+    display: none;
+}
+.hamburger_menu{
+    display: none;
 }
