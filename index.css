@@ -21,6 +21,7 @@ header{
 
 
 aside{
+    grid-area: aside;
     padding: 5px;
     margin: 50px;
 }
@@ -30,15 +31,21 @@ aside img{
 }
 
 
+main{
+    grid-area: main;
+    font-size: 2.0em;
+}
+
+
 
 nav{
     grid-area: nav;
     opacity: 0.5;
     padding: 5px;
-    transition: opacity 1.1s ease-in;
     text-align: center;
     font-size: larger;
 }
+
 nav:hover{
     display: block;
     opacity: 1;
@@ -58,8 +65,14 @@ a:hover{
 }
 
 
-
 footer{
     grid-area: footer;
     text-align: center;
+}
+
+#hamburger{
+    display: none;
+}
+.hamburger_menu{
+    display: none;
 }

@@ -1,6 +1,6 @@
 body{
     background-image: url(images/background.jpg);
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     grid-template-areas: "header header"
                           "nav nav"
                           "aside main"
@@ -72,6 +72,9 @@ section{
     padding: 10px;
 }
 
+img{
+    width: 850px;
+}
 
 
 footer{
