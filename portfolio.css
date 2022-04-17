@@ -37,7 +37,6 @@ nav{
     grid-area: nav;
     padding: 5px;
     opacity: 0.5;
-    transition: opacity 1.1s ease-in;
     text-align: center;
     font-size: larger;
 }
@@ -127,4 +126,11 @@ section:nth-child(6){
 footer{
     grid-area: footer;
     text-align: center;
+}
+
+#hamburger{
+    display: none;
+}
+.hamburger_menu{
+    display: none;
 }
